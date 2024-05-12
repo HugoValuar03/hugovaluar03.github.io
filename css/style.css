@@ -190,19 +190,3 @@
     font-size: 45px;
     margin-right: 10px;
 }
-
-/*Mobile*/
-
-@media(max-widht: 450px){
-
-    #container{
-        flex-direction: column;
-    }
-
-    #bio-container{
-        min-height: auto;
-        border-right: none;
-        border-bottom: 5px solid var(--bio-border-color);
-    }
-    
-}
